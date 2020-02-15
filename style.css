@@ -1,0 +1,72 @@
+.nav{
+    background-color:#4696e5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 358px;
+}
+.head-title{
+color:white;
+font-size: 45px;
+position: absolute;
+left: 950px;
+top: 50px;
+}
+.add-new
+{
+    padding: 150px 0 0 1066px;
+    color: white;
+}
+.input-task{
+    padding:20px;
+    border-radius: 5px;
+    margin: 0 152px 0 50px;
+}
+.button-add{
+    padding:15px;
+    border-radius: 5px;
+    background-color:#4696e5 ;
+    margin: 17px 150px 0 1087px;
+    color:white;
+}
+.button-add:hover{
+    background-color: white;
+    color :black;   
+}
+.started-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+.started-title{
+    text-align: center;
+    color:#a29f9d;
+
+}
+.hr-started
+{
+    width:50px;
+    color:#a29f9d
+}
+.hr-last
+{
+    color:#a29f9d
+}
+.travail{
+    border: solid red;
+    width:50%;
+    margin:20px;
+   display: flex;
+   flex-direction: row;
+}
+#travail-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.last-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #fafafa;
+color:#b4b3b4;
+}
